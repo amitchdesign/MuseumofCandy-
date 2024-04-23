@@ -11,124 +11,70 @@ Looking at the CSS Code the changes I made helped me make sure that this page is
 
 **Original CSS Code:**
 
-.panel {
-	**padding: 15px 25px;**
-}
+	body {
+   		**background: #f5d9d5;**
+	}
 
-.pricing-plan {
-	**border-bottom: 1px solid #e1f1ff;**
-}
+	.blurb h2 {
+  		**color: #EA1C2C;**
+	}
 
-.pricing-img {
-	**margin-bottom: 25px;**
-	**max-width: 100%;**
-}
+	.blurb p {
+    		**color: #f498b8;**
+	}
 
-.pricing-header {
- 	**color: #888;**;
-}
+	#mainNavbar .nav-link {
+   		**color: white;**
+	}
 
-.pricing-features {
- 	**margin: 50px 0 25px;**
-}
+	#mainNavbar .nav-link:hover {
+   		**color: #EA1C2C;**
+	}
 
-.pricing-features-item {
-  	**font-weight: 600;**
-  	**font-size: 12px;**
- 	**border-top: 1px solid #e1f1ff;**
-}
+	#mainNavbar .navbar-brand {
+    		**color: #EA1C2C;**
+	}
 
-.pricing-features-item:last-child{
-   	**border-bottom: 1px solid #e1f1ff;**
-}
+	#headingGroup span {
+    		**color: #EA1C2C;**
+	}
 
-.pricing-price {
-    	**color: #016ff9;** 
-}
+	.navbar.scrolled {
+    		**background: rgb(222,192,222);**
+	}
 
-.pricing-button {
-   	**color: #348efe;**
-}
-
-.pricing-button:hover, .pricing-button:focus {
-    	**background-color: #e1f1ff;**
-}
-
-.pricing-button.is-featured {
- 	**background-color: #48aaff;**
-  	color: white;
-}
-
-.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
- 	**background-color: #269aff;**
-  	color: white;
-}
-
-
-@media (min-width: 900px){
-    .pricing-plan {
-      	**border-right: 1px solid #e1f1ff;**
-   }
-}
-By changing the colors, the font size and weight, the margins, and the padding, I was able to make the words more readable and easily seen no matter the size of your screen.
-
+The hardest part about this accessibility change was getting the color contrast correct so that the contents were dark enough to be read without taking away the fun from the page. I think I did a really good job with it and I also made the sections closer together so that there wasn't empty space on the page.
 
 **Accessible CSS Code:**
 
-.panel {
-	**padding: 25px 25px;**
-}
+	body {
+   		**background: #ff9888;**
+	}	
 
-.pricing-plan {
-	**border-bottom: 1px solid #53708a;**
-}
-
-.pricing-img {
-	**margin-bottom: 12px;**
-	**max-width: 110%;**
-}
-
-.pricing-header {
-	**color: #5f5f5f;**
-}
-
-.pricing-features {
-	**margin: 50px 0 50px;**
-}
-
-.pricing-features-item {
-	**font-weight: 675;**
-	**font-size: 14px;**
-	**border-top: 1px solid #7797b3;**
-}
-
-.pricing-features-item:last-child{
-	**border-bottom: 1px solid #7797b3;**
-}
-
-.pricing-price {
-	**color: #0062da;** 
-}
-
-.pricing-button {
-	**color: #2d7ad8;**
-}
-
-.pricing-button:hover, .pricing-button:focus {
-	**background-color: #cce5fc;**
-}
-
-.pricing-button.is-featured {
-	**background-color: #3d8cd1;**
-}
-
-.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
-	**background-color: #0062da;**
-}
-
-
-@media (min-width: 900px){
-	.pricing-plan {
-		**border-right: 1px solid #7797b3;**
+	.blurb h2 {
+  		**color: #45161C;**
 	}
-}	
+
+	.blurb p {
+   		**color: #510B23;**
+	}
+
+	#mainNavbar .nav-link {
+    		**color: #45161C;**
+	}
+
+	#mainNavbar .nav-link:hover {
+    		**color: #ffdfff;**
+	}
+
+	#mainNavbar .navbar-brand {
+    		**color: #250005;**
+	}
+
+	#headingGroup span {
+	    	**color: #ffdfff;**
+	}
+
+	.navbar.scrolled {
+   		**background: #b48bb4;**
+	}
