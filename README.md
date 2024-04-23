@@ -6,7 +6,15 @@ This page was built in my website design certification course.
 For this code, I worked on creating a responsive page with four rows set up with a picture on one side and text on the other. There is a responsive and sticky menu at the top of the page, and I used stock pictures that stayed true to the design. For this page, the inspiration is a bright pink Candy Shop paired with the fun of a museum. Since this page is not accessible, I had a lot of work ahead of me to make this bright page accessible but still fun! Below are all of the changes highlighted as ** **.
 
 HTML CODE I chose not to use alt text for the images because they are purely decorative. The message of the webpage is conveyed without the description of the images.
+I also changed the HTML code to darken the text in the first row because it was too light. 
 
+**Original HTML:**
+
+
+
+**Accessible HTML:**
+<div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
+	
 Looking at the CSS Code the changes I made helped me make sure that this page is not only responsive but also accessible.
 
 **Original CSS Code:**
