@@ -9,28 +9,13 @@ HTML CODE I chose not to use alt text for the images because they are purely dec
 I also changed the HTML code to darken the text in the first row because it was too light. 
 
 **Original HTML:**
- 	<div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+ 	
+  	<div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
 
 **Accessible HTML:**
-	<section class="container-fluid px-0">
-       		<div class="row align-items-center">
-           		<div class="col-lg-6">
-                		<div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    			<h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                		</div>
-            		</div>
-            	<div class="col-lg-6">
-                	<img class="img-fluid" src="imgs/hand2.png" alt="">
-            	</div>
-        </div>
-    </section>
-	
+
+        <div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
+                 
 Looking at the CSS Code the changes I made helped me make sure that this page is not only responsive but also accessible.
 
 **Original CSS Code:**
