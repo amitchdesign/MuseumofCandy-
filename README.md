@@ -9,8 +9,7 @@ HTML CODE I chose not to use alt text for the images because they are purely dec
 I also changed the HTML code to darken the text in the first row because it was too light. 
 
 **Original HTML:**
-
-
+ <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
 
 **Accessible HTML:**
 <div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
