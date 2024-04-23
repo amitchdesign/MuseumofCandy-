@@ -14,7 +14,7 @@ I also changed the HTML code to darken the text in the first row because it was 
 
 **Accessible HTML:**
 
-        <div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
+	<div id="headingGroup" class="text-#51010B text-center d-none d-lg-block mt-5">
                  
 Looking at the CSS Code the changes I made helped me make sure that this page is not only responsive but also accessible.
 
