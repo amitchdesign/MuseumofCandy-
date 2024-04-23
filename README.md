@@ -7,9 +7,9 @@ For this code, I worked on creating a responsive page with four rows set up with
 
 HTML CODE I chose not to use alt text for the images because they are purely decorative. The message of the webpage is conveyed without the description of the images.
 
-Looking at the CSS Code I have highlighted the accessibility changes using ** **. These changes helped me make sure that this page is not only responsive but also accessible.
+Looking at the CSS Code the changes I made helped me make sure that this page is not only responsive but also accessible.
 
-Original CSS Code:
+**Original CSS Code:**
 
 .panel {
 	**padding: 15px 25px;**
@@ -72,7 +72,8 @@ Original CSS Code:
 }
 By changing the colors, the font size and weight, the margins, and the padding, I was able to make the words more readable and easily seen no matter the size of your screen.
 
-Accessible CSS Code:
+
+**Accessible CSS Code:**
 
 .panel {
 	**padding: 25px 25px;**
